@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 90%;
+  background: transparent;
+  padding: 1.35rem 2.5rem;
+}
+
+body {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/52609230-dd78-4dba-82a1-8bb3ac3803e6/BR-pt-20220214-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+  background-repeat: no-repeat;
+  background-size: 145%;
+}
+
+.fundo {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+
+svg {
+  width: 10.4rem;
+  fill: #e50914;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  height: 35rem;
+  width: 19.65rem;
+  background: rgba(0, 0, 0, 0.753);
+  border: none;
+  border-radius: 2px;
+  padding: 60px 68px 40px;
+  margin-bottom: 70px;
+}
+
+.titulo {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.campo input {
+  height: 3.25rem;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #333333;
+  color: white;
+  outline: none;
+  padding: 0px 20px;
+}
+
+.campo input::placeholder {
+  font-size: 17px;
+}
+
+#input-text {
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
+
+#input-password {
+  margin-bottom: 40px;
+}
+button {
+  width: 100%;
+  height: 3rem;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  background: #e50914;
+  color: white;
+  cursor: pointer;
+}
+
+.contreinner-ajuda {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+#checktreinner {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#checktreinner p {
+  font-size: 13px;
+  color: #979797;
+}
+
+#ajuda {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#ajuda p {
+  font-size: 13px;
+  color: #979797;
+}
+
+#check {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+#check:checked {
+  background-color: #979797;
+}
+
+.rodape-fieldset {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  font-family: Helvetica, Arial;
+}
+
+.face {
+  width: 100%;
+  display: flex;
+  color: #636363;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 17px;
+}
+
+.face img {
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.face p {
+  margin-top: 2px;
+}
+
+.novo {
+  color: #636363;
+  margin-bottom: 13px;
+}
+
+.novo p {
+  font-size: 16px;
+}
+
+.novo a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 1px solid transparent;
+}
+
+.novo a:hover {
+  border-color: white;
+}
+
+.cap {
+  color: #979797;
+  margin-bottom: 13px;
+}
+
+fieldset span {
+  color: #0167ff;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+span:hover {
+  border-color: #0167ff;
+}
+
+.click {
+  color: #979797;
+  font-family: Helvetica, Arial;
+  font-size: 13px;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.753);
+  width: 100%;
+  height: 16rem;
+  color: #636363;
+  font-family: Helvetica, Arial;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.duvidas {
+  width: 75%;
+  font-size: 16px;
+  margin-bottom: 27px;
+}
+
+.contreinner-footer {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+footer span {
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+footer span:hover {
+  border-color: #636363 !important;
+}
+
+.select {
+  width: 75%;
+}
+
+#select {
+  height: 2.8rem;
+  width: 8.5rem;
+  color: #636363;
+  padding: 10px;
+  background-color: #000000;
+  margin: 3px;
+  border-radius: 3px;
+  border-color: #333333;
+}
+
+.contreinner-footer {
+  margin-bottom: 20px;
+}
